@@ -16,7 +16,7 @@ function AuthStack() {
       }}>
       <Stack.Screen name="Tab1">
         {() => (
-          <Button title="Button" onPress={() => Navigation.navigate('User')} />
+          <Button title="Button" onPress={() => Navigation.navigate('Home')} />
         )}
       </Stack.Screen>
     </Stack.Navigator>
