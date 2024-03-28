@@ -1,7 +1,13 @@
 import React from 'react';
-import {Home} from 'screens/Home';
+import {SafeAreaView} from 'react-native';
+
+import RootStack from 'routes/index.routes';
 
 function App(): React.JSX.Element {
-  return <Home />;
+  return (
+    <SafeAreaView style={{flex: 1}}>
+      <RootStack />
+    </SafeAreaView>
+  );
 }
 export default App;
