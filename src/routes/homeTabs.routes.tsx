@@ -26,13 +26,6 @@ export function HomeTabs() {
           name="Cart"
           component={Cart}
         />
-
-        {/* <Tab.Screen
-          options={{tabBarLabel: 'Favourites'}}
-          name="Favourites"
-          component={Favourites}
-        /> */}
-
         <Tab.Screen
           options={{tabBarLabel: 'Profile'}}
           name="Profile"

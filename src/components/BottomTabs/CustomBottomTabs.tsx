@@ -9,7 +9,6 @@ import Animated, {
 } from 'react-native-reanimated';
 import {interpolatePath} from 'react-native-redash';
 
-import {SCREEN_WIDTH} from '../../constants/Screen';
 import usePath from '../../hooks/usePath';
 import {getPathXCenter} from 'utils/Path';
 import TabItem from './TabItem';

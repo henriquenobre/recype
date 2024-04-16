@@ -8,9 +8,9 @@ import theme from 'theme/index';
 function App(): React.JSX.Element {
   return (
     <ThemeProvider theme={theme}>
-      <SafeAreaView style={{flex: 1}}>
-        <RootStack />
-      </SafeAreaView>
+      <RootStack />
+      {/* <SafeAreaView style={{flex: 1, backgroundColor: 'red'}}>
+      </SafeAreaView> */}
     </ThemeProvider>
   );
 }
