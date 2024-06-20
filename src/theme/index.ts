@@ -1,9 +1,10 @@
 export default {
   COLORS: {
     WHITE: '#FFF',
-
+    BACKGROUD: '#F5F5F5',
+    GRAY5: '#e0e0e0',
     GRAY4: '#D9D9D9',
-    GRAY3: '##A9A9A9',
+    GRAY3: '#A9A9A9',
     GRAY2: '#797979',
     GRAY1: '##484848',
 
@@ -15,11 +16,11 @@ export default {
     PRIMARY40: '#DBEBE7',
     PRIMARY20: '#F6FAF9',
 
-    SECONDARY100: '##FF9C00',
-    SECONDARY80: '##FFA61A',
-    SECONDARY60: '##FFBA4D',
-    SECONDARY40: '##FFCE80',
-    SECONDARY20: '##FFE1B3',
+    SECONDARY100: '#FF9C00',
+    SECONDARY80: '#FFA61A',
+    SECONDARY60: '#FFBA4D',
+    SECONDARY40: '#FFCE80',
+    SECONDARY20: '#FFE1B3',
 
     RATING: '#FFAD30',
 

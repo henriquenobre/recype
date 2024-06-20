@@ -18,6 +18,7 @@ export type IndexStackNavigatorParamList = {
     name: string;
     birthYear: string;
   };
+  Recipe: undefined;
 };
 
 export type RootStackParamList = IndexStackNavigatorParamList &

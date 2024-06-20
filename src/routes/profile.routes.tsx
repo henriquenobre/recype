@@ -2,7 +2,9 @@ import {
   CardStyleInterpolators,
   createStackNavigator,
 } from '@react-navigation/stack';
-import {Text} from 'react-native';
+
+import {Home} from 'screens/Home';
+import { Recipe } from 'screens/Recipe';
 
 const Stack = createStackNavigator();
 
@@ -13,7 +15,8 @@ function ProfileStack() {
         headerShown: false,
         cardStyleInterpolator: CardStyleInterpolators.forHorizontalIOS,
       }}>
-      <Stack.Screen name="User">{() => <Text>Teste User</Text>}</Stack.Screen>
+      <Stack.Screen name="Home" component={Home} />
+      <Stack.Screen name="Recipe" component={Recipe} />
     </Stack.Navigator>
   );
 }
