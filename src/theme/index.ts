@@ -2,7 +2,7 @@ export default {
   COLORS: {
     WHITE: '#FFF',
     BACKGROUD: '#F5F5F5',
-
+    GRAY5: '#e0e0e0',
     GRAY4: '#D9D9D9',
     GRAY3: '#A9A9A9',
     GRAY2: '#797979',

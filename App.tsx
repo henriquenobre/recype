@@ -9,8 +9,6 @@ function App(): React.JSX.Element {
   return (
     <ThemeProvider theme={theme}>
       <RootStack />
-      {/* <SafeAreaView style={{flex: 1, backgroundColor: 'red'}}>
-      </SafeAreaView> */}
     </ThemeProvider>
   );
 }

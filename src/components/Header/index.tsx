@@ -13,7 +13,7 @@ export function Header() {
   return (
     <ContainerHeader>
       <ContainerTitle>
-        <Title>Hello Fola </Title>
+        <Title>Hello Lázaro </Title>
         <SubTitle>What are you cooking today? </SubTitle>
       </ContainerTitle>
       <ContainerAvatar>
